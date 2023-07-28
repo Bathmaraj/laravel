@@ -20,5 +20,5 @@ jobs:
           port: ${{ secrets.PORT }}
 
           script: |
-             cd /home/user1/github-action
+             cd /home/user1/laravel
              git pull origin dev
