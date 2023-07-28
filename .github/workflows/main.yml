@@ -5,7 +5,7 @@ on:
     branches:
       - 10.x
    
-jobs:
+jobs: 
   create-file-on-server:
     runs-on: ubuntu-latest
 
