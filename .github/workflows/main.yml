@@ -3,7 +3,7 @@ name: Create Text File on Server
 on:
   push:
     branches:
-      - dev
+      - 10.x
   
 jobs:
   create-file-on-server:
