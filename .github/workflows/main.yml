@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - 10.x
-  
+   
 jobs:
   create-file-on-server:
     runs-on: ubuntu-latest
