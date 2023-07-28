@@ -1,4 +1,4 @@
-name: Create Text File on Server
+name: CI & CD
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
  
-      - name: Create text file on server
+      - name: pull request
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.SERVER_HOST }}
