@@ -21,4 +21,4 @@ jobs:
 
           script: |
              cd /home/user1/laravel
-             git pull origin dev
+             git pull origin 10.x
