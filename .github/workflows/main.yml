@@ -20,4 +20,4 @@ jobs:
           port: ${{ secrets.PORT }}
 
           script: |
-             touch /home/ubuntu/aws.txt
+             touch /home/ubuntu/laravel/aws.txt
