@@ -2,7 +2,7 @@ name: laravel
 
 on:
   push:
-    branches: [ "staging" ]
+    branches: 10.x
 
 
 jobs:
