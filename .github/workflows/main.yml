@@ -12,7 +12,7 @@ jobs:
 
     steps:
      - name: Deploy cleverfuze Application
-       uses: appleboy/ssh-action@v0.1.2
+       uses: appleboy/ssh-action@v1.0.0
        with:
         host: ${{ secrets.SSH_HOST_STAGING }}
         username: ${{ secrets.SSH_USERNAME }}
